@@ -1,0 +1,25 @@
+.header_container{
+    margin: auto;
+    align-items: center;
+    max-width: 1440px;
+}
+  .header {
+    width: 100%;
+    background-color: var(--color-0);
+    box-shadow: 0 0 10px 4px  var(--color-6);
+    top: 0;
+    position: sticky;
+    display: flex;
+    z-index: 100;
+  }
+  .header_container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 4em;
+    z-index: 10;
+  }
+  
+  @media (min-width: 870px){
+  }

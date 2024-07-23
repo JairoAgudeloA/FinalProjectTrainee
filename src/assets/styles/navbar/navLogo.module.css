@@ -1,0 +1,11 @@
+.header__logo{
+  width: 180px;
+  left: 10%;
+  position: relative;
+}
+
+@media (min-width: 870px) {
+  .header__logo {
+    margin-left: 0;
+  }
+}

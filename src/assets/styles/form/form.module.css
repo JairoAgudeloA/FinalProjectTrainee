@@ -1,0 +1,105 @@
+.form {
+    width: 100%;
+    margin: auto;
+    padding: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    background-color: var(--color-1);
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .form__input {
+    width: 100%;
+    height: 3em;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid var(--color-0);
+    border-radius: 4px 4px 0 0;
+    background-color: var(--color-5);
+    padding-left: 0.5em;
+  }
+  
+  .form__input:focus {
+    outline: none;
+  }
+  
+  .form__input::placeholder {
+    color: var(--color-4);
+    padding: 0 0.7em;
+  }
+  
+  .form__label {
+    display: flex;
+    width: 100%;
+    font-size: 0.8em;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  
+  .label__input {
+    display: flex;
+    transform: scale(1.4);
+  }
+  
+  .label__input:checked ~ .icons__check {
+    opacity: 1;
+  }
+  
+  .label__input:checked {
+    display: none;
+  }
+  
+  .icons__check {
+    opacity: 0;
+    color: var(--color-7);
+    position: absolute;
+    right: -0.2em;
+  }
+  
+  .form__button {
+    margin: auto;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    background-color: var(--color-0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  
+  .form__button:hover {
+    background-color: var(--color-5);
+    box-shadow: 2px 2px 4px var(--color-4);
+  }
+  
+  .form__button:active {
+    background-color: var(--color-1);
+  }
+  
+  
+
+  @media screen and (min-width: 550px) {
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    
+    .form {
+      width: 60%;
+      padding: 2em 3.5em;
+    }
+  }
+  
+
+  @media screen and (min-width: 900px) {
+    .form {
+      width: 40%;
+    }
+  }

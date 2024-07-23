@@ -1,0 +1,39 @@
+
+.header__nav_button {
+    display: flex;
+    background-color: var(--color-1);
+    border-radius: 7px;
+    border: none;
+    font-size: 14pt;
+    font-weight: 900;
+    color: var(--color-4);
+    align-items: center;
+    padding: 0.3em 0.7em;
+    width: 6.5em;
+    cursor: pointer;
+    justify-content: space-between;
+    letter-spacing: 0.1em;
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.2s;
+}
+
+  
+.header__nav_button:hover {
+  background-color: var(--color-5);
+  box-shadow: 1px 1px 4px var(--color-4);
+}
+  .header__nav_button:active {
+    background-color: var(--color-1);
+  }
+  
+  .header__nav_button_img {
+    width: 1.5em;
+  }
+
+
+@media (min-width: 870px) {
+    .header__nav_button{
+      font-size: 11pt;
+      margin-right: 2em;
+    }
+}

@@ -1,0 +1,22 @@
+.header__nav_item,
+.header__nav_link {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20pt;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: var(--color-3);
+}
+.header__nav_link:is(:hover, :focus) {
+  color: var(--color-1);
+}
+.activeButton {
+  color: var(--color-1);
+}
+
+@media (min-width: 870px) {
+  .header__nav_item,
+  .header__nav_link {
+    font-size: 15pt;
+  }
+}

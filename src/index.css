@@ -1,0 +1,24 @@
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --min-computer:870px;
+    --color-0:#fff;
+    --color-1:#C1D72F;
+    --color-2:#CF6679;
+    --color-3:#231F20;
+    --color-4:#323232;
+    --color-5:#D7E57a;
+    --color-6:#0002;
+    --color-7: #666;
+    --color-0-svg: invert(100%) sepia(6%) saturate(0%) hue-rotate(70deg) brightness(108%) contrast(108%);
+    --color-1-svg: invert(93%) sepia(82%) saturate(6443%) hue-rotate(341deg) brightness(95%) contrast(75%);
+    --color-2-svg: invert(74%) sepia(23%) saturate(5238%) hue-rotate(303deg) brightness(82%) contrast(96%);
+    --color-3-svg: invert(10%) sepia(5%) saturate(893%) hue-rotate(294deg) brightness(96%) contrast(92%);
+    --color-4-svg: invert(18%) sepia(9%) saturate(12%) hue-rotate(42deg) brightness(96%) contrast(95%);
+    --color-5-svg: invert(87%) sepia(33%) saturate(552%) hue-rotate(15deg) brightness(99%) contrast(91%);
+    --color-7-svg: invert(42%) sepia(8%) saturate(64%) hue-rotate(315deg) brightness(92%) contrast(92%);
+}

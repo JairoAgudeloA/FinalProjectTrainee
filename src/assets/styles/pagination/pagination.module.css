@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_nextPrev{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1em;
+
+}
+.text{
+    display: flex;
+    gap: 0.5em;
+    cursor: pointer;
+    align-items: center;
+}
+
+.prev, .next{
+    display: flex;
+    width: 10px;;
+}
+
+.prev:disabled, .next:disabled{
+    cursor: not-allowed;
+    box-shadow: none;
+}
